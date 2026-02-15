@@ -1,9 +1,13 @@
 package Exercicios;
-
+import  java.util.Scanner;
 public class Ex2 {
     static void main() {
-        int num1 = 10;
-        int num2 = 5;
-        System.out.println("x = " + (num1 + num2));
+
+        Scanner scanner = new Scanner(System.in);
+
+        int A = scanner.nextInt();
+        int B = scanner.nextInt();
+        int X = A + B;
+        System.out.println("X = " + X);
     }
 }
