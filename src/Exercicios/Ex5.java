@@ -1,10 +1,14 @@
 package Exercicios;
-
+import java.util.Scanner;
 public class Ex5 {
     static void main(String[] args) {
-        int num1 = 54;
-        int num2 = 30;
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("O valor da multiplicação será: " + (num1 * num2));
+        int A = scanner.nextInt();
+        int B = scanner.nextInt();
+        int PROD = A * B;
+
+
+        System.out.printf("PROD = %d%n", PROD);
     }
 }
