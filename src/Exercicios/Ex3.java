@@ -5,12 +5,12 @@ public class Ex3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Insira o valor do raio: ");
-        Double raio = scanner.nextDouble();
+        double raio = scanner.nextDouble();
+        double pi = 3.14159;
 
-        double area = 3.14 * (raio * raio);
+        double area = pi * raio * raio;
 
-        System.out.println("O valor da area: " + area);
+        System.out.printf("A=%.4f%n", area);
 
         scanner.close();
     }
