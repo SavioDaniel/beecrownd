@@ -1,11 +1,15 @@
 package Exercicios;
-
+import java.util.Scanner;
 public class Ex6 {
     static void main(String[] args) {
-        double num1 = 5.3;
-        double num2 = 8.4;
+        Scanner scanner = new Scanner(System.in);
 
+        double A = scanner.nextDouble();
+        double B = scanner.nextDouble();
 
-        System.out.println("A media do aluno será: " + ((num1 + num2) / 2));
+        double MEDIA = (A * 3.5 + B * 7.5) / 11;
+
+        System.out.printf("MEDIA = %.5f%n", MEDIA);
+        scanner.close();
     }
 }
