@@ -53,6 +53,6 @@ public class Ex36 {
         }
 
         scanner.close();
-    
+
     }
 }
